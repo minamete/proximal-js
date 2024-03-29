@@ -3,7 +3,36 @@
     "mathjs": "^12.4.1"
   },
   "exports": {
-    "./affineProj": "./projections/affine_proj.js"
+    "./AffineProj": "./projections/affine_proj.js",
+    "./DouglasRachford": "./proximal/douglas_rachford.js"
   },
-  "type": "module"
+  "type": "module",
+  "name": "proximal_js",
+  "description": "Implementations of proximal operators in JS.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minamete/proximal-js.git"
+  },
+  "keywords": [
+    "proximal",
+    "optimization",
+    "projection",
+    "admm",
+    "math",
+    "mathematics",
+    "functions",
+    "numeric"
+  ],
+  "author": "minamete",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minamete/proximal-js/issues"
+  },
+  "homepage": "https://github.com/minamete/proximal-js#readme"
 }

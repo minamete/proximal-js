@@ -1,11 +1,13 @@
 import * as math from "mathjs";
+import Proximal from "../proximal.js";
 
-export default class affineProj {
+export default class AffineProj extends Proximal {
   // Operator for affine projection onto {x: Ax = b}
   // A: m x n matrix
   // b: m x 1 vector
 
   constructor(A, b) {
+    super();
     this.A = A;
     this.b = b;
   }
