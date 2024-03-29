@@ -3,15 +3,16 @@
     "mathjs": "^12.4.1"
   },
   "exports": {
-    ".": "./index.js",
-    "./projections/affine_proj.js": "./projections/affine_proj.js",
-    "./proximal/douglas_rachford.js": "./proximal/douglas_rachford.js"
+    ".": "./index",
+    "./projections/affine_proj": "./projections/affine_proj",
+    "./algorithms/douglas_rachford": "./algorithms/douglas_rachford",
+    "./algorithms/alternating_projections": "./algorithms/alternating_projections"
   },
   "type": "module",
   "name": "proximal_js",
   "description": "Implementations of proximal operators in JS.",
   "version": "1.0.3",
-  "main": "index.js",
+  "main": "index",
   "directories": {
     "test": "tests"
   },
