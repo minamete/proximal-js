@@ -3,20 +3,19 @@
     "mathjs": "^12.4.1"
   },
   "exports": {
-    ".": "./index",
-    "./projections/affine_proj": "./projections/affine_proj",
-    "./algorithms/douglas_rachford": "./algorithms/douglas_rachford",
-    "./algorithms/alternating_projections": "./algorithms/alternating_projections"
+    ".": "./index.js",
+    "./projections/affine_proj": "./projections/affine_proj.js",
+    "./algorithms/douglas_rachford": "./algorithms/douglas_rachford.js",
+    "./algorithms/alternating_projections": "./algorithms/alternating_projections.js"
   },
   "type": "module",
   "name": "proximal_js",
   "description": "Implementations of proximal operators in JS.",
   "version": "1.0.4",
-  "main": "index",
+  "main": "index.js",
   "directories": {
     "test": "tests"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/minamete/proximal-js.git"
@@ -36,5 +35,6 @@
   "bugs": {
     "url": "https://github.com/minamete/proximal-js/issues"
   },
-  "homepage": "https://github.com/minamete/proximal-js#readme"
+  "homepage": "https://github.com/minamete/proximal-js#readme",
+  "types": "index.d.ts"
 }
