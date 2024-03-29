@@ -1,6 +1,6 @@
 import * as math from "mathjs";
 
-// Implements the Douglas-Rachford splitting algorithm
+// Implements the Douglas-Rachford splitting algorithm (aka: ADMM)
 // prox_a: Proximal
 // prox_b: Proximal
 // shadow: Projection, optional; if not provided, defaults to prox_a
@@ -27,7 +27,8 @@ export default class DouglasRachford {
     );
   }
 
+  // Returns array [normal, shadow]
   apply_shadow(x) {
-    return this.shadow.apply(this.apply(x))
+    return [this.apply(x), this.shadow.apply(this.apply(x))]
   }
 }
