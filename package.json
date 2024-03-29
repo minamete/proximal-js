@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "mathjs": "^12.4.1"
+  },
+  "exports": {
+    "./affineProj": "./projections/affine_proj.js"
+  },
+  "type": "module"
+}
