@@ -11,7 +11,7 @@
   "type": "module",
   "name": "proximal_js",
   "description": "Implementations of proximal operators in JS.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index",
   "directories": {
     "test": "tests"
