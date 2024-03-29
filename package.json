@@ -3,8 +3,9 @@
     "mathjs": "^12.4.1"
   },
   "exports": {
-    "./AffineProj": "./projections/affine_proj.js",
-    "./DouglasRachford": "./proximal/douglas_rachford.js"
+    ".": "./index.js",
+    "./projections/affine_proj.js": "./projections/affine_proj.js",
+    "./proximal/douglas_rachford.js": "./proximal/douglas_rachford.js"
   },
   "type": "module",
   "name": "proximal_js",
