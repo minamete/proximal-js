@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "mathjs": "^12.4.1"
+    "mathjs": "^14.0.1"
   },
   "exports": {
     ".": "./index.js",

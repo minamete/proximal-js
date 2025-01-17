@@ -9,7 +9,7 @@ const A_1 = math.matrix([
     [1, -1] 
 ]);
 const A_2 = math.matrix([
-    [1 + 1/15, -1]
+    [1 + 1/30, -1]
 ])
 const b = math.matrix([0])
 
